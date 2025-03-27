@@ -27,5 +27,11 @@
 
 
 .background {
-    background-color: #E9EFFE;
+    // background-color: #E9EFFE;
+    background: #333 url('../../assets/icons/homePage/hero/bg-img.webp') no-repeat center center / cover;
+    min-height: 100vh;
+}
+
+.background__program {
+    background-color: var(--bg);
 }

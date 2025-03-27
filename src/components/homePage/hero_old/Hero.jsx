@@ -16,10 +16,11 @@ export const Hero = ({toggleIsOpenForm}) => {
   return (
     <>
       <div className={cls.hero}>
-        <Title title={"Бухгалтерское обслуживание от лидера рынка от 2500₽/мес.!"} className={cls.hero__titleMobile} />
+        <Title title={"1C под ключ"} className={cls.hero__titleMobile} />
         <div className={cls.hero__content}>
           <div className={cls.hero__left}>
-            <Title title={"Бухгалтерское обслуживание от лидера рынка от 2500₽/мес.!"} className={cls.hero__titleDesktop} />
+            <Title title={"1C под ключ"} className={cls.hero__titleDesktop} />
+            <HeroList />
             <button
               onClick={() => toggleIsOpenForm(true)}
               className={cls.hero__btn}
@@ -27,8 +28,7 @@ export const Hero = ({toggleIsOpenForm}) => {
               Задать вопрос
             </button>
           </div>
-            <HeroList />
-          {/* <HeroImg className={cls.hero__img} /> */}
+          <HeroImg className={cls.hero__img} />
         </div>
       </div>
       {/* <Modal isOpen={isOpen} onClose={toggleIsOpenForm}>

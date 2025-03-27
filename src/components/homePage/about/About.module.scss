@@ -133,10 +133,10 @@
 
     &__btn {
         margin-top: auto;
-        background-color: red;
+        background-color: var(--bg);
         // border: 2px solid red;
         padding: 12px 36px;
-        color: #fff;
+        color: var(--black);
 
         border-radius: 10px;
         transition: all 0.3s ease-in-out;
@@ -144,6 +144,7 @@
 
         &:hover {
             background-color: #921AAF;
+            color: var(--white);
             // border-color: #921AAF;
         }
     }

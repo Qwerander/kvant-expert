@@ -3,6 +3,11 @@
 .titleWrapper {
     // margin-bottom: 36px;
     text-align: center;
+
+    &.center {
+        align-self: center
+    }
+
     >h1 {
         @include adaptive-px(font-size, 44, 22);
         font-weight: 900;

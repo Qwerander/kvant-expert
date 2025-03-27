@@ -90,13 +90,15 @@
     width: 100%;
     background-color: var(--btn);
     border: 2px solid var(--btn);
-    color: var(--white);
+    color: var(--black);
     padding: 12px;
     border-radius: 10px;
     outline: none;
-    transition: background-color 0.3s linear;
+    transition: all 0.3s linear;
 
     &:hover {
         background-color: var(--btn-hover);
+        border-color: var(--btn-hover);
+        color: var(--white-hover);
     }
 }

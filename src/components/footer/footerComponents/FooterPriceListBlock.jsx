@@ -2,7 +2,8 @@
 import { ReactComponent as WhatsUpSVG } from "../../../assets/icons/whatsUp.svg";
 import { ReactComponent as TelegramSVG } from "../../../assets/icons/telegram.svg";
 import { ReactComponent as YoutubeSVG } from "../../../assets/icons/youtube.svg";
-import { ReactComponent as KvantSVG } from "../../../assets/icons/logo-kvant-expert-1с-light.svg";
+// import { ReactComponent as KvantSVG } from "../../../assets/icons/logo-kvant-expert-1с-light.svg";
+import { ReactComponent as KvantSVG } from "../../../assets/icons/logo-kvant-expert-1с.svg";
 import cls from "./footerBlock.module.scss";
 
 export const FooterPriceListBlock = () => {

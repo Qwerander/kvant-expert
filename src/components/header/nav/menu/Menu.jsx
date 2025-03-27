@@ -5,7 +5,7 @@ export const Menu = () => {
   return (
     <nav className={cls.menu}>
       <NavLink to='/'>Главная</NavLink>
-      <NavLink to='/services'>Услуги</NavLink>
+      <a href='#services'>Услуги</a>
       <NavLink to='/about'>О компании</NavLink>
       <NavLink to='/contacts'>Контакты</NavLink>
       {/* <NavLink to='/'>Обучение</NavLink>
