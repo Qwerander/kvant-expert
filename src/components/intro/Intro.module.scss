@@ -36,7 +36,7 @@
         padding: 10px 20px;
         font-size: 16px;
         background: var(--btn);
-        color: #fff;
+        color: var(--black);
         border: none;
         border-radius: 5px;
         cursor: pointer;
@@ -44,6 +44,7 @@
 
         &:hover {
             background: var(--btn-hover);
+            color: var(--white);
         }
     }
 
